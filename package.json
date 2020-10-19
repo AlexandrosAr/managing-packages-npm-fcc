@@ -2,7 +2,15 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "Alexandros Arapidis",
 	"description": "A project that does something awesome",
-	"keywords": [ "freecodecamp", "heroku", "Managing", "package", "npm", "learning" ],
+	"keywords": [
+		"freecodecamp",
+		"heroku",
+		"Managing",
+		"package",
+		"npm",
+		"learning"
+	],
+	"license": "MIT",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
