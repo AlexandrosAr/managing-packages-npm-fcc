@@ -36,9 +36,9 @@
 
 		function publishSampleMC() {
 			const message = {
-				from: "LightningMessageService_OpenCTI_TestPage",
-				type: "SampleMC",
-				time: new Date().toLocaleTimeString()
+				source: "SDD",
+          		messageBody: null,
+          		recordId: 'testID'
 			};
 
 			sforce.opencti.publish({ channelName: SAMPLEMC, message: message, callback: lightningMessageServiceCallback });
